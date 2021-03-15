@@ -1,0 +1,47 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.five {
+
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+article{
+    flex-basis: length 400px;
+}
